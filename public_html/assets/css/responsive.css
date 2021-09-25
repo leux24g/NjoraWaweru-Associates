@@ -1,0 +1,80 @@
+@media screen and (max-width:991px) {
+    .navbar .navbar-brand {
+        justify-content: left;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    /* General  */
+
+    .section-heading p {
+        padding: unset;
+    }
+
+    /* Contact Page */
+
+    .contact-info {
+        margin-top: 3rem;
+        border-right: none;
+        padding-right: 15px;
+    }
+
+    .contact-form {
+        padding-left: 15px;
+    }
+
+    /* Services Page */
+    .service .service-heading {
+        justify-content: left;
+        padding-left: 1rem;
+    }
+
+    .service .service-heading h2 {
+        font-size: 1.75rem;
+    }
+
+    .service .divider {
+        margin: 1rem 0 2rem 3rem;
+    }
+
+    .services-list {
+        padding-left: 2rem;
+    }
+
+    /* Home Page */
+    .slider-inner p {
+        padding: 0;
+    }
+
+    .welcome-text .section-heading {
+        text-align: center;
+    }
+
+    .welcome-section .section-number {
+        justify-content: center;
+    }
+
+    .welcome-text {
+        padding: 2rem 1rem
+    }
+
+    .contact-details {
+        padding: 2.5rem 2rem;
+    }
+
+    .contact-details form {
+        padding: 1rem;
+    }
+
+
+
+
+
+}
+
+@media screen and (max-width:576px) {
+    .navbar .navbar-brand>div {
+        display: none;
+    }
+}
